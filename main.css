@@ -1,0 +1,427 @@
+@font-face {
+  font-family: "Rockness-Regular";
+  src: url("fonts/Rockness.woff");
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("fonts/Gilroy-Regular.woff");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("fonts/Gilroy-Medium.woff");
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("fonts/Gilroy-Bold.woff");
+}
+@font-face {
+  font-family: "Butler_Light";
+  src: url("fonts/Butler_Light.woff");
+}
+@font-face {
+  font-family: "Butler_Regular";
+  src: url("fonts/Butler_Regular.woff");
+}
+@media (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px){}
+.navbar{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+#navbar{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: #17AC9D;
+    transition: width .3s;
+
+}
+.link:hover::after{
+width: 100%;
+transition: width .6s;
+}
+ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    color: #67859E;
+}
+ul li a{
+    text-decoration: none;
+    color: #67859E;
+}
+#lang{
+    border: 1px solid #67859E;
+    padding: 6px;
+    margin-right: 20px;
+    color: #67859E;
+}
+h1{
+    font-size: 72px;
+    font-family: "Butler_Light";
+    text-align: center;
+    color: #384F63;
+}
+.blog_pic{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   margin-top: 300px;
+}
+.blog_shape1{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.40;
+    width: 250x;
+    height: 250px;
+    top: 25%;
+    right: 0%;
+    top: 50%;
+}
+.blog_picture{
+    position: absolute;
+    opacity: 0.88;
+    top: 50%;
+}
+.blog_shape2{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.35;
+    right: 80%;
+}
+.blog_shape3{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.45;
+    left: 85%;
+}
+.blog_footer{
+    background-image: url('pics/footer.png');
+    background-color: #283E51;
+    width: 1920px;
+    height: 1920px;
+    background-color: #283E51;
+    margin-top: 300px;
+}
+#blog_p1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 50px;
+
+}
+#blog_p2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    text-decoration: line-through;
+    text-decoration-color: #17AC9D;
+}
+#logo{
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Gilroy-Bold";
+}
+.blog_p3{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: "Gilroy-Regular";
+}
+#blog_p2{
+  text-align: center;
+}
+#blog_p3{
+  border-top: 1px solid #FFFFFF;
+  position: absolute;
+  justify-content: center;
+  width: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#blog_p4{
+  margin-top: 40px;
+}
+.blog_p5{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: "Gilroy-Regular";
+  margin-top: 50px;
+}
+#blog_social{
+  text-align: center;
+  margin-top: 20px;
+}
+.blog_logos{
+  width: 40px;
+  height: 40px;
+}
+#company_p1{
+    color: #283E51;
+    font-size: 100px;
+    font-family: "Butler_Regular";
+}
+#company_p2{
+    font-size: 93px;
+    font-family: "Rockness-Regular";
+    color: #17AC9D;
+    text-align: center;
+
+}
+.company_p3{
+    font-size: 35px;
+    font-family: "Butler_Light";
+    color: #283E51;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+.company_shape4{
+    position: absolute;
+    opacity: 0.35;
+    right: 80%;
+    width: 451px;
+    height: 414px;
+    top: 25%;
+}
+.company_box1{
+    width: 1082px;
+    box-shadow: 0px 0px 50px #67859E26;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.company_p4{
+    width: 822px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 40px;
+    color: #283E51;
+    opacity: 0.8;
+    font-size: 20px;
+    font-family: "Gilroy-Regular";
+}
+.company_shape5{
+    position: absolute;
+    opacity: 0.40;
+    width: 250x;
+    height: 250px;
+    left: 95%;
+    top: 150%;
+}
+.company_box2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-25%);
+}
+.company_box{
+    width: 417px;
+    height: 246px;
+    background-color: #F5F5F5;
+    display: inline-block;
+    margin-right: 54px;
+    
+  }
+  .company_p5{
+    text-align: center;
+    color: #17AC9D;
+    font-size: 40px;
+    font-family: "Butler_Regular";
+    margin-left: 20px;
+    margin-top: 40px;
+    opacity: 80%;
+  }
+  .company_p6{
+    text-align: center;
+    color: #283E51;
+    font-size: 23px;
+    font-family: "Gilroy-Regular";
+    margin-left: 20px;
+    margin-top: 40px;
+    opacity: 80%;
+  }
+  .company_box3{
+    display: flex;
+    width: 100%;
+    height: 540px;
+  }
+  .company_box31{
+    flex-grow: 1;
+  }
+  #company_box31{
+    background-color: #283E51;
+  }
+  #company_box32{
+    background-color: #17AC9D;
+  }
+  #company_box33{
+    background-color: #F5F5F5;
+  }
+  .box1_p1{
+    color: #FFFFFF;
+    font-size: 93px;
+    font-family: "Rockness-Regular";
+    text-align: center;
+  }
+  .box1_p2{
+    color: #FFFFFF; 
+    text-align: center;
+    font-size: 20px;
+    font-family: "Gilroy-Regular";
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+  .box3_p1{
+    color: #17AC9D;
+    font-size: 93px;
+    font-family: "Rockness-Regular";
+    text-align: center;
+  }
+  .box3_p2{
+    color: #283E51;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Gilroy-Regular";
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+  #company_sponsors{
+    color: #283E51;
+    text-align: center;
+  }
+  #company_p7{
+    font-size: 72px;
+    font-family: "Butler_Light";
+  }
+  #company_p8{
+    font-size: 22px;
+    font-family: "Gilroy-Regular";
+  }
+  .company_sponsors{
+    display: flex;
+    justify-content: center;
+  }
+  .company_sponsor{
+    width: 248px;
+    height: 248px;
+  }
+  .blog{
+    background-color: #17AC9D;
+    position: relative;
+    height: 540px;
+  }
+  #career_p1{
+    font-size: 165px;
+    font-family: "Rockness-Regular";
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  #career_p2{
+    font-size: 42px;
+    font-family: "Gilroy-Regular";
+    color: #FFFFFF;
+    text-align: center;
+  }
+  #career_shape5{
+    left: 2%;
+    top:45%;
+    position: absolute;
+    width: 190px;
+    height: 210px;
+  }
+  #career_shape6{
+    left: 90%;
+    top: 60%;
+    position: absolute;
+    width: 388px;
+    height: 359px;
+  }
+  #career_shape7{
+    left: 2%;
+    position: absolute;
+    width: 366px;
+    height: 347px;
+  }
+  .career_boxes{
+    display: flex;
+    width: 100%;
+    height: 540px;
+  }
+  .career_box{
+    flex: 1;
+  }
+  #career_boxcontact{
+    background-color: #E6E6E6;
+  }
+  #career_box_p{
+    margin-left: 150px;
+    color: #283E51;
+    font-size: 65px;
+    font-family: "Butler_Light";
+  }
+  #career_contact_us{
+    margin-left: 100px;
+    color: #283E51;
+    font-size: 65px;
+    font-family: "Butler_Light";
+  }
+.career_contact{
+  margin-left: 150px;
+  font-size: 20px;
+  font-family: "Gilroy-Regular";
+  width: 280px;
+}
+#career_social{
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.career_logos{
+  width: 40px;
+  height: 40px;
+}
+input{
+  width: 420px;
+  height: 45px;
+  border-radius: 14px;
+  opacity: 0.64;
+  border: none;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color: #00008B;
+  padding-left: 15px;
+}
+input::placeholder{
+  color: #17AC9D;
+  text-indent: 10px;
+  font-size: 15px;
+  font-family: "Gilroy-Regular";
+}
+input[placeholder="Message"]{
+  height: 90px;
+}
+input[placeholder="Message"]::placeholder{
+  top: -25%;
+  position: relative;
+}
+#career_button{
+  margin-left: 100px;
+}
